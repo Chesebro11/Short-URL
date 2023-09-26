@@ -1,13 +1,24 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: #D1E3DD;
+  height: 100%;
+}
+
 .Header {
     color: var(--secondary);
     margin: 0;
     background-color: #32292F;
-    padding: 0.625rem;
+    padding: .5rem;
     border-radius: calc(0.18rem - 1px) calc(0.18rem - 1px) 0 0;
   }
   .Header-title {
     color: #D1E3DD;
-    font-size: 42px;
+    font-size: 56px;
     text-align: center;
   }
 
@@ -20,19 +31,31 @@
     padding: 20px;
     background-color: #32292F;
     color: #D1E3DD;
-    /* display: flex;
+  }
+
+  .Footer {
+    background-color: #32292F;
+    height: 75px;
+    width: 100%;
+    font-size: 20px;
+    color: #D1E3DD;
+    display: flex;
     justify-content: center;
-    align-items: center; */
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
   }
 
   h2 {
-    font-size: 24px;
+    font-size: 36px;
     margin-top: 0;
   }
 
   input {
     position: relative;
-    margin: auto;
+    margin: 30px auto;
     max-width: 280px;
     border-radius: 3px;
     overflow: hidden;
@@ -41,6 +64,6 @@
     background-color: #D1E3DD;
   }
 
-  body {
-    background-color: #D1E3DD;
+  a {
+    color: inherit;
   }
