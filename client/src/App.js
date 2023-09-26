@@ -7,6 +7,7 @@ import Urloutput from "./components/Urloutput"
 function App() {
   return (
     <>
+    {/* re-learn how to do state management stuff so that the user can actually input text */}
     <Header> </Header>
     <Urlcontainer> </Urlcontainer>
     <Urloutput> </Urloutput>
